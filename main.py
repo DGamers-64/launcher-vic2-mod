@@ -18,8 +18,6 @@ def wsl_is_installed():
         return True
     return False
 
-import os
-
 def convertir_ruta_wsl(ruta_windows):
     
     ruta_windows = ruta_windows.replace("\\", "/")
